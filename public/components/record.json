@@ -1,0 +1,133 @@
+{
+  "name": "John James Doe, Jr.",
+  "photo": "img/bill.png",
+  "dob": "2/24/1954",
+  "sex": "Male",
+  "enthnicity": "Hispanic",
+  "medications": [
+    {
+      "drug": "Lexapro",
+      "dosage": "20mg PO daily",
+      "indication": "Depression"
+    },
+    {
+      "drug": "Aspirin",
+      "dosage": "81mg PO daily",
+      "indication": "Heart Health"
+    },
+    {
+      "drug": "Hydrochlorthiazide",
+      "dosage": "12.5mg PO daily",
+      "indication": "Hypertension"
+    }
+  ],
+  "history": {
+    "medical": [
+      "Hypertension",
+      "Diabetes (Type2)",
+      "Obesity",
+      "History of Recurrent Depression",
+      "Erectile Dysfunction",
+      "Lupus",
+      "Endocarditis",
+      "Cluster Headaches",
+      "Impetigo",
+      "Colon Polys",
+      "Prostate Hypertrophy",
+      "History of Rubella",
+      "Post Traumatic Stress Dissorder",
+      "Low Back Pain"
+    ],
+    "immunization": [
+      {
+        "vaccine": "inlfuenza",
+        "date": "01/01/2013"
+      },
+      {
+        "vaccine": "inlfuenza",
+        "date": "01/01/2013"
+      },
+      {
+        "vaccine": "Zoster",
+        "date": "01/01/2012"
+      }
+    ],
+    "allergies": [
+      {
+        "alergen": "Penicillin",
+        "reaction": "Rash"
+      }
+    ],
+    "family": {
+      "paternal": [],
+      "maternity": [],
+      "children": []
+    },
+    "social": {
+      "occupation": "Brick Layer",
+      "marital": "Married",
+      "education": "some college",
+      "tobacoo": "formerly 1PPD x 25 years",
+      "alcohol": "occasional",
+      "drugs": "deny",
+      "excercise": "None",
+      "diet": "vegetarian",
+      "military": "Vietnam War—Honorably Discharged",
+      "travel": "None Recent",
+      "Veneral Diseases": "None"
+    },
+    "emergency": {
+      "code": "DNR",
+      "bloodType": "0+",
+      "organDonor": "Yes",
+      "language": "Spanish, English",
+      "religion": "Jehovah's Whitness",
+      "powerOfAttorney": "Jacon Doe (Son)",
+      "livingWill": "No"
+    },
+    "physician": [
+      {
+        "name": "Catherine Hansen, DO",
+        "phone": "319.610.5555",
+        "fax": "319.626.5545",
+        "address": "1200 Delaney CT, North Liberty, IA"
+      }
+    ],
+    "pharmacy": [
+      {
+        "name": "Walgreens",
+        "phone": "319.764.9875",
+        "fax": "319.765.2234",
+        "address": "832 Park Road, Iowa City, IA"
+      }
+    ],
+    "insurance": {
+      "medical": [
+        {
+          "name": "Blue Cross Blue Shield of Alabama",
+          "phone": "319.764.9875",
+          "fax": "319.765.2234",
+          "address": "832 Park Road, Iowa City, IA"
+        }
+      ],
+      "dental": [
+        {
+          "name": "Delta Dental",
+          "phone": "319.764.9875",
+          "fax": "319.765.2234",
+          "address": "832 Park Road, Iowa City, IA"
+        }
+      ],
+      "auto": [
+        {
+          "name": "Progressive"
+        }
+      ],
+      "life": [
+        {
+          "name": "Northwestern Mutual"
+        }
+      ]
+    }
+  }
+}

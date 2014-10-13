@@ -27,10 +27,10 @@ gulp.task('default', ['build'], function() {
     });
 
     gulp.watch('public/**/*.js', ['browserify']);
-    gulp.watch('public/**/*.html', ['files']);
-    gulp.watch('public/**/*.md', ['markdown']);
-    gulp.watch('public/**/*.css', ['css']);
-    gulp.watch('public/**/*.less', ['less']);
+    gulp.watch('public/img/**/*', ['files']);
+    gulp.watch('public/content/**/*', ['files']);
+    gulp.watch('public/**/*.css', ['files']);
+    gulp.watch('public/**/*.less', ['files']);
 
 });
 
@@ -46,7 +46,7 @@ gulp.task('clean', function() {
 
 
 // build tasks //////////////////////////////////////////////////
-gulp.task('build', ['browserify']);
+gulp.task('build', ['browserify', 'files']);
 
 gulp.task('browserify', ['files'], function() {
     var environ = {
@@ -56,6 +56,7 @@ gulp.task('browserify', ['files'], function() {
     browserify()
         .add('./public/main.js')
         .require('react')
+        .transfrom('brfs')
         .transform(envify(environ))
         .transform(partialify)
         .transform(reactify)
@@ -74,8 +75,8 @@ gulp.task('browserify', ['files'], function() {
 
 // assets //////////////////////////////////////////////////////
 gulp.task('files', ['css', 'markdown'], function() {
-    gulp.src(['./public/**/*'])
-        .pipe(gulp.dest('public/'));
+     gulp.src(['./public/content/**/*'])
+         .pipe(gulp.dest('build/'));
 });
 
 
